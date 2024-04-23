@@ -23,6 +23,21 @@ h1{
   font-style: normal;
 }
 
+.seccion-oscura{
+    color: white;
+    background-color: #1b1b32;
+}
+
+.seccion-titulo{
+    font-size: 2rem;
+    padding: 15px 0;
+    font-family: "Rubik Dirt", system-ui;
+}
+
+.seccion-texto{
+    font-size: 1.2rem;
+}
+
 
 
 /* Hero */
@@ -31,6 +46,18 @@ h1{
     min-height: 450px;
     text-align: center;
 }
+
+.sobre-mi{
+    height: 500px;
+    padding: 10px;
+}
+
+.sobre-mi .contenedor{
+    max-width: 600px;
+    text-align: center;
+}
+
+
 
 
 .hero-principal{
