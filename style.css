@@ -38,6 +38,10 @@ h1{
     font-size: 1.2rem;
 }
 
+.seccion-clara{
+    color: black;
+    background-color: white;
+}
 
 
 /* Hero */
@@ -46,19 +50,6 @@ h1{
     min-height: 450px;
     text-align: center;
 }
-
-.sobre-mi{
-    height: 500px;
-    padding: 10px;
-}
-
-.sobre-mi .contenedor{
-    max-width: 600px;
-    text-align: center;
-}
-
-
-
 
 .hero-principal{
     padding: 3rem;
@@ -77,7 +68,62 @@ h1{
     margin: 20px;
 }
 
+/* Sobre Mi */
+.sobre-mi{
+    height: 500px;
+    padding: 10px;
+}
 
+.sobre-mi .contenedor{
+    max-width: 600px;
+    text-align: center;
+}
+
+
+/* Experiencia */
+.experiencia{
+    padding: 40px 40px 60px 40px;
+}
+
+.experiencia .columna{
+    padding: 20px;
+    /* border: 2px solid #8080804d; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    transition: all 0.2s ease-in;
+
+}
+
+.experiencia .columna:hover{
+    color: white;
+    background-color: #1b1b32;
+}
+
+.experiencia-titulo{
+    font-size: 25px;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+.experiencia i {
+    font-size: 2.5rem;
+    color: #7ade30;
+    padding: 9px 19px;
+    background-color: #0a0a23;
+    border-radius: 50%;
+}
+
+.badges-contenedor{
+    font-size: 20px;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+.badge {
+    margin: 5px;
+}
 
 
 @media screen and (max-width : 767px){
